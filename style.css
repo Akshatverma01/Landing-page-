@@ -1,0 +1,606 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ 
+body{
+    background-image: linear-gradient(to right bottom, #390909, #320916, #280b1c, #110711, #0b070f, #09070c, #0a0513, #080313, #080213, #090320, #310a1b, #390913);
+}
+
+#navbar {
+    height: fit-content;
+}
+
+#nav-div{
+    display: flex;
+    float: right;
+    margin-left: auto;
+}
+
+#navbar ul li a{
+    color: white;
+}
+
+#navbar h1{   
+    color: #f9fd05;
+    margin-left: 7rem;
+    font-size: 3rem;
+    font-family: 'Pacifico', cursive;   
+   
+}
+
+#navbar a img{
+    background-color: dimgray;
+}
+
+#div-1{
+
+    color: white;
+    letter-spacing: 2px;
+}
+
+#head1{
+    font-size: 2.3rem;
+    font-family: 'Black Ops One', cursive;
+}
+
+#head2{
+    font-family: 'Ewert', cursive;
+    font-size: 5.5rem;
+    color: #dbdf0b;
+    letter-spacing: 3px;
+}
+
+#head3{
+    /* font-family: 'Faster One', cursive; */
+    font-family: 'Ewert', cursive;
+    font-size: 7rem;
+    color: orangered;
+}
+
+#div-1{
+    padding-top: 3%;
+}
+#btn{
+    height: fit-content;
+    width: auto;
+    background-image: linear-gradient(to top left, #632525, #7c123e, #741860, #421881, #13367c);
+}
+
+#btn a{
+    margin-top: 2rem;
+    text-decoration: none;
+    color: rgb(90, 18, 18);
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+#btn:hover{
+    box-shadow: 0px 2px 5px orangered;
+}
+#btn a:hover{
+    color: orangered;
+}
+
+
+#img1{
+    height: 40rem;
+    
+}   
+
+#rating{
+    margin: .5rem;
+    
+}
+#rating>p{
+    color: orangered;
+    font-weight: 600;
+    font-size: 1.2rem;
+    
+}
+
+#rating,
+#reviews img{
+    height: 20px;
+    align-self: baseline;
+}
+
+#btn2{
+    height: fit-content;
+    width: auto;
+    float: right;
+    background: rgba(245, 245, 245, 0.062);
+}
+
+#btn2 a{
+    margin-top: 2rem;
+    text-decoration: none;
+    color: rgb(240, 13, 13);
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+#btn2 p{
+    color: white;
+    font-size: .7rem;
+}
+#btn2:hover{
+    box-shadow: 0px 2px 5px orangered;
+}
+#btn2 a:hover{
+    color: orangered;
+}
+
+#items{
+    margin-top: 4rem;
+    color: white;
+}
+#items h1{
+    padding: .8rem;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+#head4, h2, span{
+    color: orangered;
+}
+
+.card {
+    background: none;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card img{
+    background-image: linear-gradient(to right bottom, #4a0808, #41041d, #2f0b27, #1a1029, #050f23); 
+    width: 100%;
+}
+
+.card-title{
+    color:orangered;
+}
+.card-text {
+    color: rgb(207, 81, 31);
+    margin-right: auto;
+}
+
+.card a{
+    width: auto;
+    font-size: .6rem;
+    font-weight: 600;
+    height: fit-content;
+}
+
+#img3{
+    height: 190px;
+}
+
+.content{
+    margin-top: 5rem;
+}
+
+#img4{
+    height: 70vh;
+    background-image:  linear-gradient(to left bottom, #e2a5a5c0, #c48ea5d8, #d488c3d7, #5d4186a8, #435a85d3);  ;
+    background-size: 300px 440px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+      
+}
+
+#btn4{
+    height: fit-content;
+    width: auto;
+    background-image:  linear-gradient(to left bottom, #9d6060bd, #93516cad, #86497ad2, #644d87a8, #3d537bd3);  
+   
+}
+
+#btn4 a{
+    margin-top: 2rem;
+    text-decoration: none;
+    color: rgb(185, 116, 25);
+    font-weight: 750;
+    font-size: 1rem;
+}
+
+#btn4:hover{
+    box-shadow: 0px 2px 5px rgb(255, 153, 0);
+}
+
+#btn4 a:hover{
+    color: rgb(228, 144, 18);
+}
+
+
+#about-product {
+    background-image: linear-gradient(to left bottom, #4a0808, #41041d, #2f0b27, #1a1029, #050f23); 
+    height: 200vh;
+}
+
+#about-content{
+   padding-top: 4rem;
+   padding-right: 8rem;
+}
+
+#about-content,
+#product-content,
+h2{
+    font-size: 1.5rem;
+    padding-bottom: 2.4rem;
+}
+
+#about-content h2{
+    padding-left: 9rem;
+}
+
+#about-content h1{
+    padding-bottom: 2rem;
+}
+
+#img5{
+    height: 70vh;
+    background-image:  linear-gradient(to left bottom, #cf9f68c0, #af8c6fd8, #3b706cd7, #1b4134a8, #0c3626d3);  ;
+    background-size: 300px 400px;
+    background-repeat: no-repeat;
+    background-position-x: center; 
+    display: flex;
+
+}
+
+p,h1{
+    color: white;
+    font-family: 'Courgette', cursive;
+}
+
+.img5{
+    padding-left: 5rem;
+    position: relative;
+}
+
+#product-content{
+    margin-top: 5rem;
+   margin-left: auto;
+   padding-left: 8rem;
+}
+#btn5{
+    height: fit-content;
+    width: auto;
+    background-image:  linear-gradient(to left bottom, #ae804ac0, #7b5b41d8, #3b706cd7, #11392aa8, #142b22d3);  
+}
+
+#btn5 a{
+    text-decoration: none;
+    color: rgb(177, 106, 12);
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+#btn5:hover{
+    box-shadow: 0px 2px 5px rgb(228, 144, 18);
+}
+#btn5 a:hover{
+    color: rgb(228, 144, 18);
+}
+
+
+#reviews{
+    margin-top: 8rem;
+    margin-left: auto;
+    background-image: linear-gradient(to left bottom, #270505, #24050f, #280b1c, #110711, #0b070f, #09070c, #0a0513, #080313, #080213, #090320, #1d0610, #2b050d); 
+}
+
+#reviews h1{
+    padding-bottom: 2rem;
+    margin-left: 4rem;
+    padding-top: 5rem;
+}
+
+.reviews{
+    padding-top: 2rem;
+    padding: 1rem;
+    padding-left: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+#updates{
+    height: 30vh;
+    padding-top: 3rem;
+    position: relative;
+
+}
+#updates h1{
+    padding-left: 5rem;
+}
+
+#updates input{
+   background-image: linear-gradient(to right bottom, #ac5e9b9d, #a7426ccb, #973a83b6, #5239779a, #1d3566a4); font-size: .8rem; 
+   height: 40px;
+   text-align: center;
+   color: white;   
+   width: 70%;
+}
+
+#updates button{
+    background-image: linear-gradient(to right bottom, #ac5e9b, #a7426c, #973a83, #523977, #1d3566);
+    height: 40px;
+    color: wheat;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-align: center;
+   
+}
+hr{
+    color: white;
+}
+
+#conclude{
+    position: relative;
+    height: 60vh;
+    padding-top: 4rem;
+    justify-content: space-evenly;
+}
+
+.col{
+    margin-left: 5rem;
+    margin-right: auto;
+    padding-bottom: 4rem;
+}
+
+#conclude h1{
+    
+    font-family: 'Pacifico', cursive;   
+    font-size: 5rem;
+    color: #f9fd05;
+    padding-bottom: 2rem;
+
+}
+
+footer{
+    background-color: #1a1029;
+    height: 50px;
+    text-align: center;
+    padding-top: .8rem;
+    position: sticky;
+    
+}
+@media screen and (min-width:200px) and (max-width: 450px) {
+
+    #navbar h1{
+        margin-left: 2rem;
+    }
+    #head1{
+        font-size: 1.5rem;
+    }
+    #head2,
+    #head3{
+        font-size: 2rem;
+        font-stretch: extra-expanded;
+        letter-spacing: 0;
+             
+    }
+
+    #img1{
+        height: 300px;
+        padding-bottom: 2rem;
+    }
+    #btn2 a{
+        font-size: .7rem;        
+    }
+    
+   #img4{
+    background-size: 50%;
+    height: auto;
+    padding-top: 2rem;
+    }
+
+    #about-product{
+        height: 100%;
+    }
+    #about-product p{
+        font-size: .8rem;
+        padding: 0;
+        margin: 0;
+    }
+    #about-content{
+        padding-right: 0;  
+        margin-right: 0;   
+    }
+    
+    #product-content{
+        flex-direction: column;
+        margin-left: auto;
+        margin-top: 1rem;
+        padding-left: 0;
+    }
+
+    #img5{
+        height: 250px;
+        padding: 0;
+        display: inline-block;
+    }
+    #items h1{
+        font-size: 2rem;
+        
+    }
+    #div-about{
+        margin-top: 4rem;
+    }
+
+    #updates h1{
+        padding-left: 0;
+    }
+
+    #updates input{
+        height: 2rem;
+        text-align: center;
+        
+        
+    }
+    #updates button{
+        padding: 0;
+        font-size: .6rem;
+        height: 2rem;
+    }
+    #reviews h1{
+        padding-bottom: 1rem;
+        padding-left: 0;
+        padding-top: 1rem;
+    }
+    .reviews{
+        padding-top: 1rem;
+        padding:.5rem;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+    }
+    #reviews p{
+        font-size: .5rem;
+    }
+
+    
+    #rating   img{
+        height: 15px;
+        align-self: baseline;
+    }
+    #reviews img{
+        height: 8px;
+    }
+
+    .col{
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 4rem;
+    }
+
+    #conclude h1{
+        font-size: 2.2rem;
+    }
+    
+}
+
+@media screen and (min-width: 450px)  and (max-width:770px){
+
+    #head2,
+    #head3{
+        font-size: 3rem;
+        /* font-stretch:ultra-expanded;         */
+        letter-spacing: 0;
+    }
+
+    #img1{
+        height: 450px;
+        padding-bottom: 2rem;
+    }
+    #btn2 a{
+        font-size: 1rem;        
+    }
+
+    #btn2{
+        width: 40%;
+    }
+
+    #about-product{
+        height: 120%;
+    }
+
+   #img4{
+        background-size: 40%;
+        height: 30rem;
+        padding-top: 2rem;
+    }
+
+   #img5{
+    background-size: 50%;
+    height: 30rem;
+    padding-top: 2rem;
+   }
+
+    #about-content{
+        padding-right: 1rem;
+    }
+
+    #about-content h1{
+        padding-right: 1rem;
+    }
+
+    #div-about{
+        padding-left: 0;
+    }
+    
+    #product-content{
+        padding-left: 0;
+        padding-right: 1rem;
+    }
+    .reviews{
+        padding: .3rem;
+    }
+
+    #updates h1{
+        padding-left: 0;
+    }
+
+    #updates input{
+        height: 3rem;
+        text-align: center;
+        
+        
+    }
+    #updates button{
+        padding: 4px;
+        font-size: .95rem;
+        height: 3rem;
+       
+
+    }
+    #updates{
+        height: 20vh;
+        padding-top: 3rem;
+    }
+
+    #conclude{
+        height: auto;
+    }
+
+    #conclude h1{
+        font-size: 3rem;
+    }
+    
+    .col{
+        padding-top: 5rem;
+        margin-left: 0;
+        padding: .8rem;
+        padding-bottom: 4rem;
+    }
+
+   
+    
+}
+
+@media screen and (min-width:770px) and (max-width:1000px) {
+
+    #head2{
+        font-size: 3.5rem;
+
+    }
+     #img1{
+        height: 480px;
+        padding-bottom: 2rem;
+    }
+
+    #about-product{
+        height: 130vh;
+    }
+    #img4, #img5 {
+        height: 500px;
+    }
+
+    #updates button{
+        font-size: .4rem;
+    }
+
+    .col{
+        padding-left: 2rem;
+    }
+}
